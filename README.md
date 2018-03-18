@@ -1,7 +1,8 @@
-##vueapimanage
+## vueapimanage  
 
+**about:**  vue api conversion tool
 
-###example
+### example  
 api/index.js:
 ```
 export default {
@@ -30,11 +31,42 @@ export default {
 }
 ```
 
-###USAGE:  
+### install:  
+```
+npm install --save vueapimanage
+```
+
+
+### usage:   
+
 ```
 import api from './api';
-import ApiManage from './apiManage'
+import ApiManage from 'vueapimanage'
 
 Vue.use(ApiManage,{api});
 ```
-//TODO 
+
+```
+<script>
+export default {
+  name: 'App',
+  created(){
+    console.log(this.$api)
+  }
+}
+</script>
+```
+
+### grammar:  
+param | explanation  
+------|----------  
+api | necessary,api file  
+path | Is there a slash before the path,default false
+capital | Is it a Camel-Case named,default false
+
+**[github](https://github.com/Grewer/appleCameraFix)**
+
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2018-present, Grewer
