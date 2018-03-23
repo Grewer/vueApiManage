@@ -58,11 +58,11 @@ export default {
 ```
 
 ### grammar:  
-param | explanation  
-------|----------  
-api | necessary,api file  
-path | Is there a slash before the path,default false
-capital | Is it a Camel-Case named,default false
+param | explanation | type
+------|---------- | ----
+api | necessary,api file | file
+path | Is there a slash before the path,default false | boolean
+capital | Is it a Camel-Case named,default false | boolean
 
 **[github](https://github.com/Grewer/appleCameraFix)**
 
