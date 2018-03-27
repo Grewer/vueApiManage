@@ -1,6 +1,6 @@
 {
   "name": "vueapimanage",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "index.js",
   "author":"grewer",
   "license": "MIT",
@@ -10,6 +10,6 @@
     "manage",
     "vue",
     "vue.js",
-    "vue2.js",
+    "vue2.js"
   ]
 }
