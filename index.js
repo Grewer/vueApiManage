@@ -2,7 +2,6 @@ let ApiManage = {};
 ApiManage.install = (Vue, option) => {
   const {api, path = false, capital = false} = option;
   const firstPath = path ? '/' : ''
-  console.log(path, capital)
   if (!api) {
     throw new Error('请添加数据源');
   }
