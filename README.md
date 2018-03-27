@@ -2,6 +2,9 @@
 
 **about:**  vue api conversion tool
 
+### dependencies  
+vue project
+
 ### example  
 api/index.js:
 ```
